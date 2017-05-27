@@ -1,6 +1,6 @@
 # Anti-Duplicator
 
-[The script explore a directory and returns duplicate fileы with their path]
+[The script explore a directory and returns duplicate files with their path]
 
 # Project Goals
 

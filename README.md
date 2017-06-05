@@ -1,7 +1,7 @@
 # **Anti-Duplicator**
 
 The script explore a directory and returns duplicate files with their path.
-You just need to input a path to a folder (like "C:\Users\HFLabs\Downloads")
+You just need to input a path to a folder (like ">python duplicates.py -p C:\Users\HFLabs\Downloads")
 after launching and program will show duplicate files.
 
 For instance, a result of script executing may be as follows:

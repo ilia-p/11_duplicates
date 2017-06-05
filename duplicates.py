@@ -2,6 +2,10 @@ import os
 from collections import defaultdict
 import argparse
 
+parser = argparse.ArgumentParser(description = 'Path_to_folder')
+parser.add_argument('-p', '--path', type = str, required = True, help = 'Path to folder to explore')
+arg = parser.parse_args()
+
 def file_list(folder_to_explore):
     file_dict = defaultdict(list)
     for root, dirs, files in os.walk(folder_to_explore):
@@ -15,15 +19,7 @@ def duplicates(file_dict):
     duplicates_list = [item for item in file_dict if len(file_dict[item]) > 1]
     for item in duplicates_list:
         print(item)
-    # for item in file_dict:
-    #     if len(file_dict[item]) > 1:
-    #         quantity = len(file_dict[item])
-    #         print('\nФайл ', item, 'встречается ', quantity, ' раз(а) в папках:')
-    #         for path in file_dict[item]:
-    #             print(path)
 
 if __name__ == '__main__':
-    # pass
-    folder_to_explore = input('Введите имя (путь до) папки\n')
-    file_dict = file_list(folder_to_explore)
+    file_dict = file_list(arg.path)
     duplicates(file_dict)

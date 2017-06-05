@@ -6,7 +6,6 @@ after launching and program will show duplicate files.
 
 For instance, a result of script executing may be as follows:
 
-* C:\Users\HFLabs\Downloads
 * ('oraocci12d.dll', 'size = 1125888')
 * ('Address_REG_CLEANED_28042017.qvw', 'size = 32453632')
 * ('oraocci12.dll', 'size = 1099264')

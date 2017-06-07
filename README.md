@@ -1,21 +1,17 @@
-# **Anti-Duplicator**
+# Anti-Duplicator
 
 The script explore a directory and returns duplicate files with their path.
 You just need to input a path to a folder (like ">python duplicates.py -p C:\Users\HFLabs\Downloads")
-after launching and program will show duplicate files.
+while launching and program will show duplicate files.
 
-For instance, a result of script executing may be as follows:
+For instance, a result of the script executing may be as follows:
 
-* ('oraocci12d.dll', 'size = 1125888')
-* ('Address_REG_CLEANED_28042017.qvw', 'size = 32453632')
-* ('oraocci12.dll', 'size = 1099264')
-* ('asbs_all_client_final_fullfill_score.txt', 'size = 1441')
-* ('cvuhelper121.jar', 'size = 824883')
-* ('oraocci12.sym', 'size = 843632')
-* ('Address_LIVING_CLEANED_03052017.txt', 'size = 336168345')
-* ('cvuhelper102.jar', 'size = 34337')
-* ('Address_REG_CLEANED_28042017.txt', 'size = 218664359')
+* file_name:  client_sample.xml  |  size:  3530
+* file_name:  ~$горитм поиска кентавров.docx  |  size:  162
+* file_name:  КК_адрес_полнота.txt  |  size:  513
+* file_name:  КК_адрес_статус.txt  |  size:  98
+* file_name:  ~$Дедубликация результаты 07.12.16.xlsx  |  size:  165
 
-# **Project Goals**
+# Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)

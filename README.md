@@ -6,11 +6,15 @@ while launching and program will show duplicate files.
 
 For instance, a result of the script executing may be as follows:
 
-* file_name:  client_sample.xml  |  size:  3530
-* file_name:  ~$горитм поиска кентавров.docx  |  size:  162
-* file_name:  КК_адрес_полнота.txt  |  size:  513
-* file_name:  КК_адрес_статус.txt  |  size:  98
-* file_name:  ~$Дедубликация результаты 07.12.16.xlsx  |  size:  165
+Duplicates: dict_items([(('asbs_all_client_final_fullfill_score.txt', '1441'), ['c:\\users\\hflabs
+\\downloads\\ASBS\\uniq', 'c:\\users\\hflabs\\downloads\\ASBS -копия\\ASBS\\uniq', 'c:\\users\\hfl
+abs\\downloads\\ASBS -копия\\uniq']), (('~$п вопросы по профилированию.docx', '162'), ['c:\\users\
+\hflabs\\downloads\\ASBS', 'c:\\users\\hflabs\\downloads\\ASBS -копия', 'c:\\users\\hflabs\\downlo
+ads\\ASBS -копия\\ASBS']), (('cvuhelper121.jar', '824883'), ['c:\\users\\hflabs\\downloads\\ODAC12
+1024_x64\\stage\\cvu\\cv\\remenv\\jlib', 'c:\\users\\hflabs\\downloads\\ODAC121024_x64\\stage\\cvu
+\\jlib']), (('BD_CLEANED_24042017.qvw', '8495616'), ['c:\\users\\hflabs\\downloads\\ASBS\\uniq', '
+c:\\users\\hflabs\\downloads\\ASBS -копия\\ASBS\\uniq', 'c:\\users\\hflabs\\downloads\\ASBS -копия
+\\uniq'])])
 
 # Project Goals
 

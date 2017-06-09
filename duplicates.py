@@ -10,16 +10,13 @@ def get_file_list(folder_to_explore):
     for root, dirs, files in os.walk(folder_to_explore):
         for name in files:
             file_size = str(os.path.getsize(os.path.join(root,name)))
-            file_name = (name, file_size)
-            file_dict[file_name].append(root)
+            file_id = (name, file_size)
+            file_dict[file_id].append(root)
     return file_dict
     
 def print_duplicates(file_dict):
-    duplicates_list = [file for file in file_dict if len(file_dict[file]) > 1]
-    for file in duplicates_list:
-        file_name = file[0]
-        file_size = file[1]
-        print('file_name: ', file_name, ' |', ' size: ', file_size)
+    duplicates_dict = dict([(file, file_dict[file]) for file in file_dict if len(file_dict[file]) > 1])
+    print('Duplicates: {}'.format(duplicates_dict.items()))
 
 if __name__ == '__main__':
     arg = parser.parse_args()

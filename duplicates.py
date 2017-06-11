@@ -16,7 +16,9 @@ def get_file_list(folder_to_explore):
     
 def print_duplicates(file_dict):
     duplicates_dict = dict([(file, file_dict[file]) for file in file_dict if len(file_dict[file]) > 1])
-    print('Duplicates: {}'.format(duplicates_dict.items()))
+    for file_id, paths in duplicates_dict.items():
+        print('\nfile: {0}\nsize: {1}'.format(file_id[0], file_id[1]))
+        print('\n'.join(path for path in paths))
 
 if __name__ == '__main__':
     arg = parser.parse_args()

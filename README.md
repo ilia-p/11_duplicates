@@ -8,9 +8,9 @@ python duplicates.py -p C:\Users\HFLabs\Downloads
 .......result......
 
 * file: Отчет по качеству данных ASBS_02052017.pptx
-* size: 2361* 15
-* c:\users\h* flabs\downloads\ASBS
-* c:\users\h* flabs\downloads\ASBS -копия
+* size: 236115
+* c:\users\hflabs\downloads\ASBS
+* c:\users\hflabs\downloads\ASBS -копия
 * c:\users\hflabs\downloads\ASBS -копия\ASBS
 
 # Project Goals
